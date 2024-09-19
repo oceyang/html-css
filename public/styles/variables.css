@@ -1,0 +1,56 @@
+:root{
+    --color-amarillo:#EAC926;
+    --color-azul1: #03264C;
+    --color-azul2:#0062A3;
+}
+.lastvisit, .pago {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.article {
+    background-color: var(--color-azul1);
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Mobile: 1 artículo */
+@media (max-width: 360px) {
+    .listaUsuario, .lista1 {
+        display: none;
+    }
+
+    .article {
+        flex: 0 1 100%;
+    }
+
+    .article h6 {
+        display: none;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 768px) {
+    header .burger-menu {
+        display: none;
+    }
+
+    .article {
+        flex: 0 1 48%; 
+        box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+    }
+}
+
+/* Desktop: 4 artículos */
+@media (min-width: 769px) {
+    header .burger-menu {
+        display: none;
+    }
+
+    .article {
+        flex: 0 1 23%; 
+        box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+    }
+}

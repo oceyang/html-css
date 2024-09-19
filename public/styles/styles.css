@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('./general.css');
+
+@import url('./variables.css');
+
+
+.logo{
+    margin: 25px;
+    width: 200px;
+    height: 60px;
+        flex: 0 1 50%;
+}
+
+.primero{
+    text-align: center;
+}
+
+.barradeBusqueda{
+    margin: 20px;
+    padding: 1px;
+    border-radius: 2px;
+}
+
+.nav-bar{
+    flex: 0 1 50%;
+}
+
+.lista1, .listaUsuario{
+    list-style: none;
+}
+
+.lista1 a, .listaUsuario a{
+    text-decoration: none;
+    color: black;
+}
+
+/* no me deja ponerlo bien en el centro o sacar la linea blanca que produce "position" */
+
+.burger-menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    background-color: var(--color-azul2);
+    color: #ffff;
+    border-radius: 5px;
+    width: 40px; 
+    height: 40px;
+    margin: 0px; 
+    padding: 0px; 
+    cursor: pointer;
+}
+
+.lastvisit, .ofertas{
+    display:list-item;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.seguridad, .envio, .pago{
+    text-align: center;
+}
+
+.fa-solid.fa-user-shield, 
+.fa-solid.fa-gift, 
+.fa-solid.fa-credit-card {
+    color: #0062A3; 
+size: 2em;
+margin-bottom: 9px;
+
+}
+
+main{
+    text-align: center;
+    width: 90%;
+    background-color: #ebebeb;
+    margin: 0 auto;
+}
+
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+
+section{
+    text-decoration: none;
+}
+
+section name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article{
+    margin: 10px;
+    border-top: 1px solid #ffffff;
+    background-color: #ffffff;
+    margin: 15px;
+}
+
+.article h4{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.article h5{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.article h6, 
+.fa-solid.fa-truck-fast{
+    text-align: left;
+    color: #39b54a;
+}
