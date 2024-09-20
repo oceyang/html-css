@@ -53,12 +53,6 @@
     cursor: pointer;
 }
 
-.lastvisit, .ofertas{
-    display:list-item;
-    gap: 20px; 
-    padding: 20px;
-}
-
 .seguridad, .envio, .pago{
     text-align: center;
 }
